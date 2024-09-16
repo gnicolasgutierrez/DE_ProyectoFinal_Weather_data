@@ -1,9 +1,6 @@
     #Proyecto Final de Data Engineer
 
-    ##Nota
-
-
-
+    
     ##Instrucciones de Uso
 
     Para arrancar el proyecto, escribe en la terminal:
