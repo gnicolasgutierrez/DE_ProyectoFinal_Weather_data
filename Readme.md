@@ -1,7 +1,7 @@
-    #Proyecto Final de Data Engineer
+    **Proyecto Final de Data Engineer**
 
     
-    ##Instrucciones de Uso
+    **Instrucciones de Uso**
 
     Para arrancar el proyecto, escribe en la terminal:
 
@@ -116,15 +116,6 @@
          data_string = f"{row['city']}-{row['timestamp']}-{row['temperature']}-{row['humidity']}-{row['pressure']}-{row['weather']}"
          return hashlib.md5(data_string.encode()).hexdigest()
     
-    ##Contribuciones
-    Si deseas contribuir al proyecto, por favor sigue los siguientes pasos:
-
-        1. Haz un fork del repositorio.
-        2. Crea una rama para tu característica o corrección de errores.
-        3. Envía un pull request con una descripción clara de los cambios.
-
-    ##Licencia
-    Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
-
+    
 
     
