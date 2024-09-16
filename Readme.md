@@ -1,20 +1,20 @@
-    # Proyecto Final de Data Engineer
+    #Proyecto Final de Data Engineer
 
-    ## Nota
+    ##Nota
 
 
 
-    ## Instrucciones de Uso
+    ##Instrucciones de Uso
 
     Para arrancar el proyecto, escribe en la terminal:
 
     ```bash
     docker-compose up
 
-    ## Descripción del Proyecto
+    ##Descripción del Proyecto
     Este proyecto de ingeniería de datos está diseñado para extraer, transformar y cargar datos meteorológicos en una base de datos Redshift utilizando Apache Airflow para la orquestación de tareas.
 
-    ## Funcionamiento del Proyecto
+    ##Funcionamiento del Proyecto
     1. Extracción de Datos: Los datos meteorológicos se extraen desde la API de OpenWeatherMap. Esta etapa obtiene los datos más recientes para una serie de ciudades definidas en la configuración.
 
     2. Transformación de Datos: Los datos extraídos son transformados para ajustarse al formato requerido, incluyendo la conversión de temperaturas a grados Celsius y el redondeo de valores.
@@ -47,7 +47,7 @@
 
     . .env: Archivo de configuración que contiene las variables de entorno necesarias para la conexión a la base de datos y el envío de correos electrónicos.
 
-    ## Funciones y Tareas del DAG
+    ##Funciones y Tareas del DAG
     El DAG dag_etl.py automatiza un proceso ETL (Extracción, Transformación y Carga) de datos meteorológicos, ejecutándolo diariamente.
 
     ***Sistema de Alertas***
@@ -71,7 +71,9 @@
     . Limpieza de Archivos Temporales (cleanup_tmp_files): Elimina archivos temporales generados durante el proceso.
     
     ##Instalación y Configuración
+    
     ***Configuración Local del Proyecto***
+    
     1. Clona el repositorio:
 
         git clone <url-del-repositorio>
